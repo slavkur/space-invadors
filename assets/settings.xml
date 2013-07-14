@@ -1,0 +1,33 @@
+<?xml?>
+<game>
+	<music src="_sounds/spaceinvaders1.mpeg"></music>
+	<theme src="_images/spi_layout.gif">
+		<sound>
+			<victory src="_sounds/victory_fanfare.mp3"></victory>
+		</sound>
+		<pilot x="34" y="214" width="13" height="11">
+			<sound>
+				<shoot src="_sounds/shoot.mp3"></shoot>
+			</sound>
+			<sound>
+				<crash src="_sounds/ufo_lowpitch.mp3"></crash>
+			</sound>
+		</pilot>
+		<specie x="48" y="64" width="9" height="9">
+			<sound>
+				<crash src="_sounds/explosion.mp3"></crash>
+			</sound>
+		</specie>
+		<bullet x="52" y="167" width="5" height="10">
+			<sound>
+				<shoot src="_sounds/ufo_highpitch.mp3"></shoot>
+			</sound>
+		</bullet>
+	</theme>
+	<pilot maneuverSpeed="4" slideInterval="0.5" slideLength="10">
+	</pilot>
+	<specie maneuverInterval="150">
+	</specie>
+	<bullet interval="0.5">
+	</bullet>
+</game>
